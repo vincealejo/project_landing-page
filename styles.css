@@ -184,3 +184,11 @@ header {
     font-size: 16px;
 }
 
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: #f9f8fa;
+    padding: 30px 200px;
+    font-size: 18px;
+    text-align: center;
+}
