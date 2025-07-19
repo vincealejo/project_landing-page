@@ -4,9 +4,15 @@ ul {
     padding: 0;
 }
 
-h1, h2, h3, body {
+h1, h2, h3, h4, body {
     padding: 0;
     margin: 0;
+}
+
+button {
+    padding: 8px 44px;
+    border: none;
+    border-radius: 8px;
 }
 
 a {
@@ -58,11 +64,13 @@ header {
     gap: 50px;
 }
 
+
+
 .hero button {
     background-color: #3882f6;
-    padding: 8px 44px;
-    border: none;
-    border-radius: 8px;
+   
+  
+    
     font-size: 18px;
     color: #f9f9f9;
 }
@@ -140,3 +148,39 @@ header {
     text-align: end;
     width: 55%;
 }
+
+/* Call to action */
+.cta {
+    padding: 130px 200px;
+}
+
+
+.cta .call {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 150px;
+    gap: 32px;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+.call .heading {
+    font-size: 28px;
+}
+
+.cta .message {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.cta button {
+    background-color: transparent;
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 16px;
+}
+
